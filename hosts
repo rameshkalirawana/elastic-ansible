@@ -1,0 +1,6 @@
+
+[master_nodes]
+54.214.174.36 ansible_user=ubuntu ansible_ssh_private_key_file=/home/ramesh/Downloads/ramesh-jenkins.pem
+
+[data_nodes1]
+34.215.99.227 ansible_user=ubuntu ansible_ssh_private_key_file=/home/ramesh/Downloads/ramesh-jenkins.pem ansible_connection=ssh
